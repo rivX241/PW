@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+</html>
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda Simple</title>
+</head>
+<body>
+    <nav>
+        <a class="simple" href="index.html">Búsqueda Simple</a>
+        <a href="busquedaImagenes.html">Búsqueda de Imágenes</a>
+        <a href="busquedaAvanzada.html">Búsqueda Avanzada</a>
+    </nav>
+    <form action="/cgi-bin/busquedaSimple.pl" method="GET">
+        <div class="search-container">
+            <span>SEARCHY</span>
+            <input type="text" class="search-input"  name="simpleSearch" placeholder="Ingrese su búsqueda">
+            <button type="submit" class="search-button">Búsqueda en Google</button>
+        </div>
+    </form>
+</body>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+</html>
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda Avanzada</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Búsqueda Simple</a>
+        <a href="busquedaImagenes.html">Búsqueda de Imágenes</a>
+        <a href="busquedaAvanzada.html">Búsqueda Avanzada</a>
+    </nav>
+    <form action="/cgi-bin/busquedaAvanzada.pl" method="GET">
+        <div class="search-container-izquierdo">
+            <span>SEARCHY</span>
+            <input type="text" class="search-input" placeholder="Todas estas palabras" name="allwords">
+            <input type="text" class="search-input" placeholder="Esta palabra o frase exacta" name="thisSentence">
+            <input type="text" class="search-input" placeholder="Ninguna de estas palabras" name="noWords">
+            <button type="submit" class="search-button">Realizar búsqueda avanzada</button>
+        </div>
+    </form>
+</body>

@@ -1,0 +1,5 @@
+docker pull ubuntu:20.04
+docker build . -t apache2_riveros_vilca
+docker run -d --name test_apache2_riveros -p 8090:80 apache2_riveros_vilca:latest
+emplear el dockerfile adjunto
+se guardo los archivos en la carpeta proyecto web para copiar correctamente a /var/www/html que emplea apache2

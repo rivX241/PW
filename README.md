@@ -8,4 +8,4 @@ Este repositorio contiene todos mis laboratorios. Dentro de cada carpeta, encont
 - Dentro de cada carpeta, encontrarás:
   - Un informe PDF que contiene la descripción del ejercicio y los resultados.
   - Archivos de código que implementan las soluciones a los laboratorios.
-![pngwing com(1)](https://github.com/user-attachments/assets/55303f6b-ae91-408c-93a2-e353be2b29da)
+![mejores-practicas-diseno-web-es](https://github.com/user-attachments/assets/ea39c7e0-2c80-4aab-a34c-915ac6f5db27)
